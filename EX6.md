@@ -9,7 +9,7 @@
 4. Close the cursor
 
 ### Program:
-```
+```sql
 SQL> CREATE TABLE emp(empid number, empname varchar(10), dept varchar(10),salary number);
 Table created.
 
@@ -25,7 +25,7 @@ values(3,'Balram','IT',50000);
 ![exp6-1](https://github.com/Rajeshanbu/Ex-no-6-Creating-Cursors-using-PL-SQL/assets/118924713/db36a26c-649b-4bef-bbf5-1b2ab9b9048b)
 
 ### PLSQL Cursor code
-```
+```sql
 SQL> SET SERVEROUTPUT ON;
 SQL> DECLARE
   2  CURSOR employee_cursor IS
